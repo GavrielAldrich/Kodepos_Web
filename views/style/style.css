@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 40vh;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.customContent{
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.searchInput{
+    width: 20rem;
+}
+.card{
+    margin-bottom: 1rem;
+    width: 18rem;
+    margin-right: 3rem;
+}
