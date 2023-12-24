@@ -1,8 +1,10 @@
-main{
+main,.customContent{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+main{
+    flex-direction: column;
 }
 header{
     height: 40vh;
@@ -15,11 +17,8 @@ header{
     height: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 .searchInput{
     width: 20rem;
