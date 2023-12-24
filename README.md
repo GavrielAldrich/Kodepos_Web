@@ -1,2 +1,1 @@
-# Kodepos_Web
-A Website that shows Province, City, Subdistrict, Urban, and most importantly Postal Code all around Indonesia.
+Thanks to [@sooluh](https://github.com/sooluh) and the provided [API](https://github.com/sooluh/kodepos) 
