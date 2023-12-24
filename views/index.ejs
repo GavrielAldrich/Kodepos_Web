@@ -7,21 +7,21 @@
 
     <div class="searchBar">
         <form action="/" method="POST">
-        <input class="searchInput"type="text" name="search" placeholder="Masukkan provinsi, kabupaten, kota..">
-        <button class="searchButton" type="submit">Search</button>
+        <input class="searchInput"type="text" name="search" placeholder="Masukkan provinsi, kabupaten, kota.." style="border-radius: 10px; padding: 3px;">
+        <button class="searchButton" type="submit" style="border: 0px; background-color: #B2A59B; color: white; padding: 3px;">Search</button>
         </form>
     </div>
 
-<% if (content != "" && content.data != "" &&  content != "empty-input" ) {%>
+<% if (content != "" && content.data != "" &&  content != "empty-input") {%>
     <div class="customContent">
         <% for(let i = 1; i < content.data.length; i++) {%>
             <div class="card">
-            <div class="card-body">
-                <h5 class="card-title"><%= content.data[i].province %></h5>
+            <div class="card-body" style="background-color: #B2A59B;">
+                <h5 class="card-title" style="color: #fafafa;"><%= content.data[i].province %></h5>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">Kota: <%= content.data[i].city %> <br>Kecamatan: <%= content.data[i].subdistrict %> <br>Kelurahan: <%= content.data[i].urban %> </li>
-                <li class="list-group-item"><%= content.data[i].postalcode %></li>
+                <li class="list-group-item" style="background-color: #FAEED1; color: #000000;">Kota: <%= content.data[i].city %> <br>Kecamatan: <%= content.data[i].subdistrict %> <br>Kelurahan: <%= content.data[i].urban %> </li>
+                <li class="list-group-item" style="background-color: #FAEED1; color: #000000;"><span style="border-radius: 5px; background-color: #B2A59B; color: white; padding: 5px;"><%= content.data[i].postalcode %></span></li>
             </ul>
         </div>
         <% } %>
