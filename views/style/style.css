@@ -7,18 +7,18 @@ main{
     flex-direction: column;
 }
 header{
-    height: 40vh;
-    margin-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    height: 40vh;
+    margin-bottom: 1rem;
 }
 .customContent{
+    flex-direction: row;
+    flex-wrap: wrap;
     height: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 .searchInput{
     width: 20rem;
